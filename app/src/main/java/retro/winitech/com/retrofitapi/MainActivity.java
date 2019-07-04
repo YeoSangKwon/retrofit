@@ -57,7 +57,6 @@ public class MainActivity extends Activity implements View.OnClickListener{
     private Retrofit retrofit_single;   //단일 오브젝트용 GET
     private Retrofit retrofit_post;     //JSON 방식의 POST
 
-
     //retrofit 객체와 연결되는 IF (GET용 retro는 같은 IF에 구현함, 연결하는 IF는 retro와 1:1 매칭이되어야함)
     private RetroInterface mRetroInterface;
     private RetroInterface mRetroInterface2;
